@@ -1,0 +1,242 @@
+.ux {
+    margin: 0;
+    flex-direction: row;
+    margin-top:0;
+    padding-bottom: 35%;
+  }
+  
+  .ux p {
+    position: absolute;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: clamp(.7rem, 2.7vw, 3rem);
+    width: 20%;
+  }
+  
+  .ux h2  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ux ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 5% 10% 5% 10%
+  }
+  
+  .ux li {
+    position: relative;
+    width: 100%;
+  }
+  
+  .Img {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    z-index: 3;
+    border-radius: 4px;
+  }
+  .left1{
+    transition: all 0.5s ease-in-out;
+  }
+  .left1 p {
+    top: 2vw;
+    right: 9vw;
+    z-index: 3;
+  }
+  .left1 img{
+    transition: all 0.5s ease-in-out;
+  }
+  .left1:hover img {
+    transform:scale(1.1)
+  }
+  .left1:hover .background2Left{
+    transform:scale(0.98)
+  }
+  .left1:hover .background1Left{
+    transform: scale(1.05);
+  }
+  .background1Left {
+    background-color: #F15A24;
+    position: absolute;
+    opacity: 80%;
+    width: 130%;
+    height: 60%;
+    top: 2vw;
+    z-index: 2;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .background2Left {
+    background-color: #FFAE91;
+    position: absolute;
+    width: 73%;
+    height: 69%;
+    top: -2vw;
+    left: 1vw;
+    z-index: 1;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .right1 {
+    margin-top: 50%;
+    
+  }
+  
+  .right1 Img {
+    right: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .background1Right {
+    background-color: #F15A24;
+    position: absolute;
+    opacity: 80%;
+    width: 50vw;
+    height: 23vw;
+    top: 2vw;
+    right: 0;
+    z-index: 2;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .background2Right {
+    background-color: #FFAE91;
+    position: absolute;
+    width: 29vw;
+    height: 27vw;
+    top: -2vw;
+    right: 1vw;
+    z-index: 1;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+  }
+  .right1:hover img{
+    transform:scale(1.1)
+  }
+  .right1:hover .background2Right{
+    transform:scale(0.98)
+  }
+  .right1:hover .background1Right{
+    transform: scale(1.05);
+  }
+  .right1 p {
+    top: 2.4vw;
+    right: 35vw;
+    z-index: 3;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .ux {
+      margin: 0;
+      flex-direction: row;
+      margin-top:0;
+      padding-bottom: 50%;
+    }
+    
+    .ux p {
+      position: absolute;
+      font-weight: 500;
+      line-height: 1.2em;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: clamp(1.2rem, 3vw, 3rem);
+      width: 20%;
+    }
+    
+    .ux h2  {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .ux ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      padding: 5% 10% 5% 10%
+    }
+    
+    .ux li {
+      position: relative;
+      width: 100%;
+    }
+    
+    .Img {
+      position: absolute;
+      width: 110%;
+      height: auto;
+      z-index: 3;
+      border-radius: 4px;
+    }
+    
+    .left1 p {
+      top: 6vw;
+      right: 12vw;
+      z-index: 3;
+    }
+    
+    .background1Left {
+      background-color: #F15A24;
+      position: absolute;
+      opacity: 80%;
+      width: 79vw;
+      height: 39.5vw;
+      top: 2vw;
+      z-index: 2;
+      border-radius: 4px;
+    }
+    
+    .background2Left {
+      background-color: #FFAE91;
+      position: absolute;
+      width: 44.5vw;
+      height: 44vw;
+      top: -2.7vw;
+      left: 3vw;
+      z-index: 1;
+      border-radius: 4px;
+    }
+    
+    .right1 {
+      margin-top: 80%;
+    }
+    
+    .right1 Img {
+      right: 0;
+    }
+    
+    .background1Right {
+      background-color: #F15A24;
+      position: absolute;
+      opacity: 80%;
+      width: 79vw;
+      height: 39.5vw;
+      top: 2vw;
+      right: 0;
+      z-index: 2;
+      border-radius: 4px;
+    }
+    
+    .background2Right {
+      background-color: #FFAE91;
+      position: absolute;
+      width: 44vw;
+      height: 44vw;
+      top: -2.6vw;
+      right: 3.5vw;
+      z-index: 1;
+      border-radius: 4px;
+    }
+    
+    .right1 p {
+      top: 7vw;
+      right: 57vw;
+      z-index: 3;
+    }
+  }
